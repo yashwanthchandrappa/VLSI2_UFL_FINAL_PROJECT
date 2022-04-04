@@ -1,0 +1,140 @@
+# Compile of alu.v was successful.
+# Compile of alu_ctrl.v was successful.
+# Compile of ctrl_risk.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of datapath_risk.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of register_file.v was successful.
+# Compile of risk_16bit.v was successful.
+# Compile of risk_16bit_tb.v was successful.
+# Compile of Parameter.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.test_Risc_16_bit -voptargs=+acc
+# vsim work.test_Risc_16_bit -voptargs="+acc" 
+# Start time: 18:01:18 on Apr 04,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test_Risc_16_bit(fast)
+# Loading work.Risc_16_bit(fast)
+# Loading work.Datapath_Unit(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.GPRs(fast)
+# Loading work.alu_control(fast)
+# Loading work.ALU(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.Control_Unit(fast)
+add wave -position end  sim:/test_Risc_16_bit/uut/clk
+add wave -position end  sim:/test_Risc_16_bit/uut/jump
+add wave -position end  sim:/test_Risc_16_bit/uut/bne
+add wave -position end  sim:/test_Risc_16_bit/uut/beq
+add wave -position end  sim:/test_Risc_16_bit/uut/mem_read
+add wave -position end  sim:/test_Risc_16_bit/uut/mem_write
+add wave -position end  sim:/test_Risc_16_bit/uut/alu_src
+add wave -position end  sim:/test_Risc_16_bit/uut/reg_dst
+add wave -position end  sim:/test_Risc_16_bit/uut/mem_to_reg
+add wave -position end  sim:/test_Risc_16_bit/uut/reg_write
+add wave -position end  sim:/test_Risc_16_bit/uut/alu_op
+add wave -position end  sim:/test_Risc_16_bit/uut/opcode
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(26)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(28)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Note: $stop    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# Break in Module test_Risc_16_bit at E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v line 21
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_Risc_16_bit(fast)
+# Loading work.Risc_16_bit(fast)
+# Loading work.Datapath_Unit(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.GPRs(fast)
+# Loading work.alu_control(fast)
+# Loading work.ALU(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.Control_Unit(fast)
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(26)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(28)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Note: $stop    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# Break in Module test_Risc_16_bit at E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v line 21
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_Risc_16_bit(fast)
+# Loading work.Risc_16_bit(fast)
+# Loading work.Datapath_Unit(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.GPRs(fast)
+# Loading work.alu_control(fast)
+# Loading work.ALU(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.Control_Unit(fast)
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(26)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# No such file or directory. (errno = ENOENT)    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v(28)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Note: $stop    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# Break in Module test_Risc_16_bit at E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v line 21
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_Risc_16_bit(fast)
+# Loading work.Risc_16_bit(fast)
+# Loading work.Datapath_Unit(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.GPRs(fast)
+# Loading work.alu_control(fast)
+# Loading work.ALU(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.Control_Unit(fast)
+run -all
+# ** Note: $stop    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# Break in Module test_Risc_16_bit at E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v line 21
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/clk
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_write_en
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_write_dest
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_write_data
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_read_addr_1
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_read_data_1
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_read_addr_2
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_read_data_2
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/reg_array
+add wave -position end  sim:/test_Risc_16_bit/uut/DU/reg_file/i
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_Risc_16_bit(fast)
+# Loading work.Risc_16_bit(fast)
+# Loading work.Datapath_Unit(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.GPRs(fast)
+# Loading work.alu_control(fast)
+# Loading work.ALU(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.Control_Unit(fast)
+run -all
+# ** Note: $stop    : E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# Break in Module test_Risc_16_bit at E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit_tb.v line 21

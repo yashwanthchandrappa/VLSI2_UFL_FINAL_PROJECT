@@ -1,0 +1,60 @@
+{E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/datapath_risk.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/datapath_risk.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module Datapath_Unit
+
+Top level modules:
+	Datapath_Unit
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/register_file.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/register_file.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module GPRs
+
+Top level modules:
+	GPRs
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/ctrl_risk.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/ctrl_risk.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Parameter.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Parameter.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/alu.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/alu.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/alu_ctrl.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/alu_ctrl.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Instruction_Memory.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/Instruction_Memory.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/risk_16bit.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module Risc_16_bit
+
+Top level modules:
+	Risc_16_bit
+
+} {} {}} {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v} {1 {vlog -work work -vopt -stats=none {E:/2022/Masters Education/VLSI 2/Final Project/RISK_V/data_memory.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}}
